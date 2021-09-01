@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>EnstruMarket</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script> 
+      $(document).ready(function(){
+        $("#flip").click(function(){
+          $("#panel").slideToggle("slow");
+      });
+      });
+      </script>
+
+<script> 
+  $(document).ready(function(){
+    $("#flip1").click(function(){
+      $("#panel1").slideToggle("slow");
+  });
+  });
+  </script>
+
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <div id="navbar" class="row">
+            <div class="col-md-12">
+                
+                <nav class="navbar navbar-default">
+                    <div class="container">
+                      <!-- Daha iyi mobil görüntü için marka ve aç/kapa gruplanıyor -->
+                      <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                          <span class="sr-only">Navigasyonu aç/kapa</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                        </button>
+                        <a href="Anasayfa.html">
+                        <img alt="Marka" src="img/enstrumarket.jpeg" href="#" height="80px" >
+                    </a>
+                      </div>
+                      <!-- Aç/kapa için nav kısayollarını, formu ve diğer içeriği bir araya topla -->
+                      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <a class="navbar-brand" href="Anasayfa.html">EnstruMarket</a>
+                            <li><a href="jquery.html">Jquery</a></li>
+                            <li><a href="iletişim.html">İletişim</a></li>
+                            <li><a href="Hakkımızda.html">Hakkımızda</a></li>
+                            
+                        </ul>
+                        <div class="container">
+                        <form class="navbar-form navbar-left" role="search">
+                          <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Hızlı arama...">
+                          </div>
+                          <button type="button" class="btn btn-primary">Ara</button>
+                        </form>
+                        <form class="navbar-form navbar-right" role="button">
+                          <div class="form-group">
+                            <a href="Girişyap.html">
+                         <button type="button" class="btn btn-success navbar-right">Giriş Yap</button>
+                       </a>
+                       </div>
+ 
+                         </form>
+                         <form class="navbar-form navbar-right" role="button">
+                           <div class="form-group">
+                             <a href="Üyeol.html">
+                          <button type="button" class="btn btn-success navbar-right">Üye Ol</button>
+                         </a>
+                        </div>
+                          </form>
+                    </div>
+                      </div><!-- /.navbar-aç/kapa -->
+                    </div><!-- /.container-fluid -->
+                  </nav>
+
+            </div>
+        </div>
+
+
+<div  class="row">
+    <div id="sol3" class="col-md-3">
+<strong>
+        <div class="list-group">
+            <div id="flip1" class="list-group-item active">
+              KATEGORİLER
+            </div>
+            <div id="panel1">
+            <a href="Gitar.html" class="list-group-item">Gitar</a>
+            <a href="Bateri.html" class="list-group-item">Bateri-Davul Çeşitleri</a>
+            <a href="Piyano.html" class="list-group-item">Piyano</a>
+            <a href="Nefesliler.html" class="list-group-item">Nefesliler-Üflemeliler</a>
+          </div>
+        </div>
+
+
+        </strong>
+    </div>
+
+
+<div id="sağ3" class="col-md-9">
+<div class="container">
+    <br>
+    
+    <div id="flip"><h3><strong>Hakkımızda</strong></h3></div>
+    <div id="panel"><p><h3><strong>Emre ALTINAY tarafından bütün Gitar ve Müzik severlere en seçkin markalı müzik aletlerini ulaştırmak amacı ile kurulmuştur. Bol müzikli günler. :)</strong></h3></p></div>
+  
+
+</div>
+
+
+
+
+</div>
+</div>
+
+<hr>
+<div id="alt" class="row">
+    <div class=col-md-12>
+        <br>
+        <br>
+        <img alt="Marka" src="img/footer_logo.png" href="#" height="80px" >
+
+    </div>
+</div>
+
+
+
+
+    </div>
+</body>
+</html>

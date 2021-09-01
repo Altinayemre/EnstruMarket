@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>EnstruMarket</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <div id="navbar" class="row">
+            <div class="col-md-12">
+                
+                <nav class="navbar navbar-default">
+                    <div class="container">
+                      <!-- Daha iyi mobil görüntü için marka ve aç/kapa gruplanıyor -->
+                      <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                          <span class="sr-only">Navigasyonu aç/kapa</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                        </button>
+                        <a href="Anasayfa.html">
+                        <img alt="Marka" src="img/enstrumarket.jpeg" href="#" height="80px" >
+                    </a>
+                      </div>
+                      <!-- Aç/kapa için nav kısayollarını, formu ve diğer içeriği bir araya topla -->
+                      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <a class="navbar-brand" href="Anasayfa.html">EnstruMarket</a>
+                            <li><a href="jquery.html">Jquery</a></li>
+                            <li><a href="iletişim.html">İletişim</a></li>
+                            <li><a href="Hakkımızda.html">Hakkımızda</a></li>
+                            
+                        </ul>
+                        <div class="container">
+                        <form class="navbar-form navbar-left" role="search">
+                          <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Hızlı arama...">
+                          </div>
+                          <button type="button" class="btn btn-primary">Ara</button>
+                        </form>
+                        <form class="navbar-form navbar-right" role="button">
+                          <div class="form-group">
+                            <a href="Girişyap.html">
+                         <button type="button" class="btn btn-success navbar-right">Giriş Yap</button>
+                       </a>
+                       </div>
+ 
+                         </form>
+                         <form class="navbar-form navbar-right" role="button">
+                           <div class="form-group">
+                             <a href="Üyeol.html">
+                          <button type="button" class="btn btn-success navbar-right">Üye Ol</button>
+                         </a>
+                        </div>
+                          </form>
+                    </div>
+                      </div><!-- /.navbar-aç/kapa -->
+                    </div><!-- /.container-fluid -->
+                  </nav>
+
+            </div>
+        </div>
+
+
+<div  class="row">
+    <div id="sol" class="col-md-3">
+        <form>
+
+        <h3><strong>Özel Süzgeç</strong></h3>
+        <hr>
+        
+        <h4>Ürün Adı</h4>
+        <div class="form-group">
+            <input type="text" class="form-control" id="exampleInputText1" placeholder="Ürün Adı Giriniz..">
+            </div> 
+            <br>  
+
+        <h4>Alt Kategori</h4>
+        <select class="form-control">
+            <option>Klasik Gitarlar</option>
+            <option>Akustik Gitarlar</option>
+            <option>Elektro Gitarlar</option>
+            <option>Bass Gitarlar</option>
+            <option>Ukulele</option>
+</select>
+<br>
+
+<h4>Marka</h4>
+
+<div class="checkbox">
+    <label>
+    <input type="checkbox" id="blankCheckbox" value="option1" aria-label="...">Yamaha
+    </label>
+</div>
+
+<div class="checkbox">
+    <label>
+    <input type="checkbox" id="blankCheckbox" value="option1" aria-label="...">Valencia
+    </label>
+</div>
+
+<div class="checkbox">
+    <label>
+    <input type="checkbox" id="blankCheckbox" value="option1" aria-label="...">Cort
+    </label>
+</div>
+
+<div class="checkbox">
+    <label>
+    <input type="checkbox" id="blankCheckbox" value="option1" aria-label="...">WashBurn
+    </label>
+</div>
+
+<div class="checkbox">
+  <label>
+  <input type="checkbox" id="blankCheckbox" value="option1" aria-label="...">Rosa
+  </label>
+</div>
+
+<div class="checkbox">
+  <label>
+  <input type="checkbox" id="blankCheckbox" value="option1" aria-label="...">Schecter
+  </label>
+</div>
+
+<div class="checkbox">
+  <label>
+  <input type="checkbox" id="blankCheckbox" value="option1" aria-label="...">Sx
+  </label>
+</div>
+
+<div class="checkbox">
+  <label>
+  <input type="checkbox" id="blankCheckbox" value="option1" aria-label="...">Miguel Angela
+  </label>
+</div>
+
+<br>
+
+<h4>Renk Seçiniz</h4>
+
+  <input type="color" id="favcolor" name="favcolor">
+  <br>
+  <br>
+
+<h4>Fiyat Aralığı</h4>
+
+<div class="input-group">
+    <input type="text" class="form-control" placeholder="Fiyat Giriniz" aria-describedby="basic-addon2">
+    <span class="input-group-addon" id="basic-addon1">TL</span>
+  </div>
+  <br>
+  
+  <button type="button" class="btn btn-primary">Ara</button>
+
+
+
+</form>
+
+    </div>
+
+
+<div id="sağ" class="col-md-9">
+
+    <div class="row">
+        <div class="col-sm-6 col-md-2">
+          <div class="thumbnail">
+            <img src="img/Gitar1.jpg" alt="...">
+            <div class="caption">
+              <h4><strong>CORT AD810E-OPW Elektro Akustik Gitar Kılıf Pena ve Pena Şarjörü Hediyeli</strong></h4>
+              <h3>1.165,00TL</h3>
+              <p><a href="#" class="btn btn-primary" role="button">Ürüne Git</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-2">
+            <div class="thumbnail">
+              <img src="img/Gitar2.jpg" alt="...">
+              <div class="caption">
+                <h4><strong>VALENCIA VC102RDS Klasik Gitar 6/8 Yaş 1/2</strong></h4>
+                <h3>381,92TL</h3>
+                <p><a href="#" class="btn btn-primary" role="button">Ürüne Git</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-2">
+            <div class="thumbnail">
+              <img src="img/gitar3.jpg" alt="...">
+              <div class="caption">
+                <h4><strong>VALENCIA VC102BUS Klasik Gitar 6/8 Yaş 1/2</strong></h4>
+                <h3>381,92TL</h3>
+                <p><a href="#" class="btn btn-primary" role="button">Ürüne Git</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-2">
+            <div class="thumbnail">
+              <img src="img/Gitar 4.jpg" alt="...">
+              <div class="caption">
+                <h4><strong>Cort KX100BKM Elektro Gitar Siyah</strong></h4>
+                <h3>1.500,00TL</h3>
+                <p><a href="#" class="btn btn-primary" role="button">Ürüne Git</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-2">
+            <div class="thumbnail">
+              <img src="img/Gitar 5.png" alt="...">
+              <div class="caption">
+                <h4><strong>CORT ELEKTRO GİTAR G100OPBC MAT VİŞNE</strong></h4>
+                <h3>752,19TL</h3>
+                <p><a href="#" class="btn btn-primary" role="button">Ürüne Git</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-2">
+            <div class="thumbnail">
+              <img src="img/Gitar6.jpg" alt="...">
+              <div class="caption">
+                <h4><strong>CORT X2VPRDRS Kılıf Hediyeli</strong></h4>
+                <h3>1.490,50TL</h3>
+                <p><a href="#" class="btn btn-primary" role="button">Ürüne Git</a></p>
+              </div>
+            </div>
+          </div>
+      
+    </div>
+    <br>
+    <div  class="row">
+
+        <div class="col-sm-6 col-md-2">
+            <div class="thumbnail">
+              <img src="img/Gitar7.jpg" alt="...">
+              <div class="caption">
+                <h4><strong>Washburn Sonamaster S1HB Siyah Elektro Gitar (Kılıf ve Pena Hediyeli)</strong></h4>
+                <h3>1.079,30TL</h3>
+                <p><a href="#" class="btn btn-primary" role="button">Ürüne Git</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-2">
+            <div class="thumbnail">
+              <img src="img/Gitar8.jpg" alt="...">
+              <div class="caption">
+                <h4><strong>Yamaha F370 DW Akustik Gitar ( Kılıf, Pena Şarjörü ve pena Hediyeli )</strong></h4>
+                <h3>1.650,00TL</h3>
+                <p><a href="#" class="btn btn-primary" role="button">Ürüne Git</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-2">
+            <div class="thumbnail">
+              <img src="img/Gitar10.jpg" alt="...">
+              <div class="caption">
+                <h4><strong>Cort X100 OPKB Elektrogitar Black Burst KILIF JACK KABLOSU ve PENA HEDİYELİ</strong></h4>
+                <h3>1.075,80TL</h3>
+                <p><a href="#" class="btn btn-primary" role="button">Ürüne Git</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-2">
+            <div class="thumbnail">
+              <img src="img/Gitar11.jpg" alt="...">
+              <div class="caption">
+                <h4><strong>Cort AERO-2 BKS Elektro Gitar (KILIF ve PENA HEDİYELİ)</strong></h4>
+                <h3>1.329,45TL</h3>
+                <p><a href="#" class="btn btn-primary" role="button">Ürüne Git</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-2">
+            <div class="thumbnail">
+              <img src="img/Gitar9.jpg" alt="...">
+              <div class="caption">
+                <h4><strong>CORT AD810BKS AKUSTİK GİTAR SİYAH (Kılıf ve Pena Hediyeli)</strong></h4>
+                <h3>815,00TL</h3>
+                <p><a href="#" class="btn btn-primary" role="button">Ürüne Git</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-2">
+            <div class="thumbnail">
+              <img src="img/Ukulele.jpg" alt="...">
+              <div class="caption">
+                <h4><strong>ROSA RU002-CH Soprano Ukulele</strong></h4>
+                <h3>159,00TL</h3>
+                <p><a href="#" class="btn btn-primary" role="button">Ürüne Git</a></p>
+              </div>
+            </div>
+          </div>
+
+          
+
+    </div>
+
+
+</div>
+</div>
+
+<hr>
+<div id="alt" class="row">
+    <div class=col-md-12>
+        <br>
+        <br>
+        <img alt="Marka" src="img/footer_logo.png" href="#" height="80px" >
+
+    </div>
+</div>
+
+
+
+
+    </div>
+</body>
+</html>

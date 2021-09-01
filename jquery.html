@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>EnstruMarket</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+          $("#btn2").click(function(){
+            alert("Value: " + $("#txt2").val());
+          });
+        });
+        </script>
+
+        <script>
+            $(document).ready(function(){
+              $("#btn1").click(function(){
+              $("#test1").html("<strong>BATERİ</strong>");
+              });
+            });
+            </script>
+
+<script>
+    $(document).ready(function(){
+      $("#btn3").click(function(){
+        $("#ana1").remove();
+      });
+    });
+    </script>
+
+<script>
+
+    $(document).ready(function(){
+      $("#btn4").click(function(){
+        $("ol").append("<li><b>DİĞER</b></li>");
+      });
+    });
+    </script>
+
+<script>
+  $(document).ready(function(){
+    $("#btn5").click(function(){
+      $("#still").addClass("blue");
+      $("#btn6").click(function(){
+        $("#still").removeClass("blue");
+        $("#btn7").click(function(){
+      $("#still").addClass("red");
+      $("#btn6").click(function(){
+        $("#still").removeClass("red");
+      });
+    });
+      });
+    });
+  });
+  </script>
+
+<script> 
+  $(document).ready(function(){
+    $("#flip2").click(function(){
+      $("#panel2").slideToggle("slow");
+  });
+  });
+  </script>
+
+      
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <div id="navbar" class="row">
+            <div class="col-md-12">
+                
+                <nav class="navbar navbar-default">
+                    <div class="container">
+                      <!-- Daha iyi mobil görüntü için marka ve aç/kapa gruplanıyor -->
+                      <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                          <span class="sr-only">Navigasyonu aç/kapa</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                        </button>
+                        <a href="Anasayfa.html">
+                        <img alt="Marka" src="img/enstrumarket.jpeg" href="#" height="80px" >
+                    </a>
+                      </div>
+                      <!-- Aç/kapa için nav kısayollarını, formu ve diğer içeriği bir araya topla -->
+                      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <a class="navbar-brand" href="Anasayfa.html">EnstruMarket</a>
+                            <li><a href="jquery.html">Jquery</a></li>
+                            <li><a href="iletişim.html">İletişim</a></li>
+                            <li><a href="Hakkımızda.html">Hakkımızda</a></li>
+                            
+                        </ul>
+                        <div class="container">
+                        <form class="navbar-form navbar-left" role="search">
+                          <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Hızlı arama...">
+                          </div>
+                          <button type="button" class="btn btn-primary">Ara</button>
+                        </form>
+                        <form class="navbar-form navbar-right" role="button">
+                          <div class="form-group">
+                            <a href="Girişyap.html">
+                         <button type="button" class="btn btn-success navbar-right">Giriş Yap</button>
+                       </a>
+                       </div>
+ 
+                         </form>
+                         <form class="navbar-form navbar-right" role="button">
+                           <div class="form-group">
+                             <a href="Üyeol.html">
+                          <button type="button" class="btn btn-success navbar-right">Üye Ol</button>
+                         </a>
+                        </div>
+                          </form>
+                    </div>
+                      </div><!-- /.navbar-aç/kapa -->
+                    </div><!-- /.container-fluid -->
+                  </nav>
+
+            </div>
+        </div>
+
+
+<div  class="row">
+    <div id="sol2" class="col-md-3">
+<strong>
+        <div id="flip2" class="list-group">
+            <a href="#" class="list-group-item active">
+              KATEGORİLER
+            </a>
+            <div id="panel2">
+            <a href="Gitar.html" class="list-group-item">Gitar</a>
+            <a href="Bateri.html" class="list-group-item">Bateri-Davul Çeşitleri</a>
+            <a href="Piyano.html" class="list-group-item">Piyano</a>
+            <a href="Nefesliler.html" class="list-group-item">Nefesliler-Üflemeliler</a>
+          </div>
+        </div>
+
+        </strong>
+    </div>
+
+
+<div id="sağ2" class="col-md-9">
+    <div class="container">
+    <div class="row">
+
+        <div class="col-sm-6 col-md-3">
+    <p><strong>Jquery Bilgi Alma</strong></p>
+    <input type="text" id="txt2" value="" /><br/>
+<input type="button" class="btn btn-info" id="btn2" value="Bilgi Al" />
+        </div>
+
+        <div id="jquery" class="col-sm-6 col-md-3">
+        
+        <h1><strong>Jquery</strong></h1>
+        </div>
+
+<div class="col-sm-6 col-md-1">
+    <p id="test1"><strong>GİTAR</strong></p>
+    <button Class="btn btn-info" id="btn1">Yazıyı değiştir</button>
+</div>
+
+
+</div>
+<hr>
+
+
+<div class="row">
+    <div class="col-sm-6 col-md-3">
+      <b>    
+<ol>
+    
+    <li>GİTAR</li>
+    <li>BATERİ</li>
+    <li>PİYANO</li>
+    <li>NEFESLİLER</li>
+  
+ </ol>
+</b>
+<button class="btn btn-info" id="btn4">Ekleme İşlemi</button>
+</div>
+
+<div class="col-sm-6 col-md-3">
+    <div id="ana1">
+      <b>
+        <ul>
+        
+            <li>GİTAR</li>
+            <li>BATERİ</li>
+            <li>PİYANO</li>
+            <li>NEFESLİLER</li>
+         </ul>
+        </b>
+    </div>
+    <button class="btn btn-info" id="btn3">Silme işlemi</button>
+    </div>
+
+    <div class="col-sm-6 col-md-3">
+      <div id="still">
+        <b>
+          <ul>
+          
+              <li>GİTAR</li>
+              <li>BATERİ</li>
+              <li>PİYANO</li>
+              <li>NEFESLİLER</li>
+           </ul>
+          </b>
+      </div>
+      <button class="btn btn-info" id="btn5">Still Ekle</button>
+      <button class="btn btn-danger" id="btn6">Still Sil</button>
+      <button class="btn btn-warning" id="btn7">Still Değiştir</button>
+      </div>
+
+</div>
+</div>
+
+
+
+
+
+</div>
+
+
+</div>
+
+<hr>
+<div id="alt" class="row">
+    <div class=col-md-12>
+        <br>
+        <br>
+        <img alt="Marka" src="img/footer_logo.png" href="#" height="80px" >
+
+    </div>
+</div>
+
+
+
+
+    </div>
+</body>
+</html>

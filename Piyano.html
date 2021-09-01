@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>EnstruMarket</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <div id="navbar" class="row">
+            <div class="col-md-12">
+                
+                <nav class="navbar navbar-default">
+                    <div class="container">
+                      <!-- Daha iyi mobil görüntü için marka ve aç/kapa gruplanıyor -->
+                      <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                          <span class="sr-only">Navigasyonu aç/kapa</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                        </button>
+                        <a href="Anasayfa.html">
+                        <img alt="Marka" src="img/enstrumarket.jpeg" href="#" height="80px" >
+                    </a>
+                      </div>
+                      <!-- Aç/kapa için nav kısayollarını, formu ve diğer içeriği bir araya topla -->
+                      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <a class="navbar-brand" href="Anasayfa.html">EnstruMarket</a>
+                            <li><a href="jquery.html">Jquery</a></li>
+                            <li><a href="iletişim.html">İletişim</a></li>
+                            <li><a href="Hakkımızda.html">Hakkımızda</a></li>
+                            
+                        </ul>
+                        <div class="container">
+                        <form class="navbar-form navbar-left" role="search">
+                          <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Hızlı arama...">
+                          </div>
+                          <button type="button" class="btn btn-primary">Ara</button>
+                        </form>
+                        <form class="navbar-form navbar-right" role="button">
+                          <div class="form-group">
+                            <a href="Girişyap.html">
+                         <button type="button" class="btn btn-success navbar-right">Giriş Yap</button>
+                       </a>
+                       </div>
+ 
+                         </form>
+                         <form class="navbar-form navbar-right" role="button">
+                           <div class="form-group">
+                             <a href="Üyeol.html">
+                          <button type="button" class="btn btn-success navbar-right">Üye Ol</button>
+                         </a>
+                        </div>
+                          </form>
+                    </div>
+                      </div><!-- /.navbar-aç/kapa -->
+                    </div><!-- /.container-fluid -->
+                  </nav>
+
+            </div>
+        </div>
+
+
+<div  class="row">
+    <div id="sol" class="col-md-3">
+        <form>
+
+        <h3><strong>Özel Süzgeç</strong></h3>
+        <hr>
+        
+        <h4>Ürün Adı</h4>
+        <div class="form-group">
+            <input type="text" class="form-control" id="exampleInputText1" placeholder="Ürün Adı Giriniz..">
+            </div> 
+            <br>  
+
+        <h4>Alt Kategori</h4>
+        <select class="form-control">
+            <option>Dijital Piyanolar</option>
+            <option>Dijital Kuyruklu Piyanolar</option>
+            <option>Dijital Taşınabilir Piyanolar</option>
+            <option>Orglar</option>
+            <option>Tabureler</option>
+           
+</select>
+<br>
+
+<h4>Marka</h4>
+
+<div class="checkbox">
+    <label>
+    <input type="checkbox" id="blankCheckbox" value="option1" aria-label="...">Yamaha
+    </label>
+</div>
+
+<div class="checkbox">
+    <label>
+    <input type="checkbox" id="blankCheckbox" value="option1" aria-label="...">Casio
+    </label>
+</div>
+
+<div class="checkbox">
+    <label>
+    <input type="checkbox" id="blankCheckbox" value="option1" aria-label="...">Ringway
+    </label>
+</div>
+
+<div class="checkbox">
+    <label>
+    <input type="checkbox" id="blankCheckbox" value="option1" aria-label="...">Artesia
+    </label>
+</div>
+
+<div class="checkbox">
+  <label>
+  <input type="checkbox" id="blankCheckbox" value="option1" aria-label="...">Kurzwell
+  </label>
+</div>
+
+<div class="checkbox">
+  <label>
+  <input type="checkbox" id="blankCheckbox" value="option1" aria-label="...">Tuanas
+  </label>
+</div>
+
+<div class="checkbox">
+  <label>
+  <input type="checkbox" id="blankCheckbox" value="option1" aria-label="...">Creminoa
+  </label>
+</div>
+
+
+<br>
+
+<h4>Renk Seçiniz</h4>
+
+  <input type="color" id="favcolor" name="favcolor">
+  <br>
+  <br>
+
+<h4>Fiyat Aralığı</h4>
+
+<div class="input-group">
+    <input type="text" class="form-control" placeholder="Fiyat Giriniz" aria-describedby="basic-addon2">
+    <span class="input-group-addon" id="basic-addon1">TL</span>
+  </div>
+  <br>
+  
+  <button type="button" class="btn btn-primary">Ara</button>
+
+
+
+</form>
+
+    </div>
+
+
+<div id="sağ" class="col-md-9">
+
+    <div class="row">
+        <div class="col-sm-6 col-md-2">
+          <div class="thumbnail">
+            <img src="img/Piyano1.jpg" alt="...">
+            <div class="caption">
+              <h4><strong>Casio AP270BK CELVIANO Dijital Piyano (Siyah)</strong></h4>
+              <h3>4.031,37TL</h3>
+              <p><a href="#" class="btn btn-primary" role="button">Ürüne Git</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-2">
+            <div class="thumbnail">
+              <img src="img/Piyano2.jpg" alt="...">
+              <div class="caption">
+                <h4><strong>TUANAS P9BK DİJİTAL PİYANO SİYAH 88 TUŞ HAMMER ACTION</strong></h4>
+                <h3>2.274,05TL</h3>
+                <p><a href="#" class="btn btn-primary" role="button">Ürüne Git</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-2">
+            <div class="thumbnail">
+              <img src="img/Piyano3.jpg" alt="...">
+              <div class="caption">
+                <h4><strong>Yamaha CSP170BK Dijital Piyano (Mat Siyah)</strong></h4>
+                <h3>23.615,16TL</h3>
+                <p><a href="#" class="btn btn-primary" role="button">Ürüne Git</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-2">
+            <div class="thumbnail">
+              <img src="img/Piyano4.jpg" alt="...">
+              <div class="caption">
+                <h4><strong>Artesia DP-3-SR Dijital Piyano PEŞİN FİYATINA 5 TAKSİT (Tabure ve Kulaklık Hediyeli)</strong></h4>
+                <h3>3.906,71TL</h3>
+                <p><a href="#" class="btn btn-primary" role="button">Ürüne Git</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-2">
+            <div class="thumbnail">
+              <img src="img/Piyano5.jpg" alt="...">
+              <div class="caption">
+                <h4><strong>Artesia DP-3-WH PEŞİN FİYATAINA 5 TAKSİT Beyaz Dijital Piyano</strong></h4>
+                <h3>3.906,71TL</h3>
+                <p><a href="#" class="btn btn-primary" role="button">Ürüne Git</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-2">
+            <div class="thumbnail">
+              <img src="img/Org1.jpg" alt="...">
+              <div class="caption">
+                <h4><strong>CREMONIA EK61223 ORG 61 TUŞLU 5 OKTAV</strong></h4>
+                <h3>620,99TL</h3>
+                <p><a href="#" class="btn btn-primary" role="button">Ürüne Git</a></p>
+              </div>
+            </div>
+          </div>
+      
+    </div>
+    <br>
+    <div  class="row">
+
+        <div class="col-sm-6 col-md-2">
+            <div class="thumbnail">
+              <img src="img/Piyano6.jpg" alt="...">
+              <div class="caption">
+                <h4><strong>Ringway GDP-1120-BK Lake Siyah Kuyruklu Dijital Piyano</strong></h4>
+                <h3>9.107,87TL</h3>
+                <p><a href="#" class="btn btn-primary" role="button">Ürüne Git</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-2">
+            <div class="thumbnail">
+              <img src="img/Piyano7.jpg" alt="...">
+              <div class="caption">
+                <h4><strong>Ringway GDP-1120 Lake Beyaz Kuyruklu Dijital Piyano</strong></h4>
+                <h3>9.107,87TL</h3>
+                <p><a href="#" class="btn btn-primary" role="button">Ürüne Git</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-2">
+            <div class="thumbnail">
+              <img src="img/Piyano8.jpg" alt="...">
+              <div class="caption">
+                <h4><strong>Kurzweil KA130-SR Gülağacı Dijital Piyano</strong></h4>
+                <h3>4.451,90TL</h3>
+                <p><a href="#" class="btn btn-primary" role="button">Ürüne Git</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-2">
+            <div class="thumbnail">
+              <img src="img/Piyano9.jpg" alt="...">
+              <div class="caption">
+                <h4><strong>Kurzweil KA130-WH Mat Beyaz Dijital Piyano</strong></h4>
+                <h3>4.451,90TL</h3>
+                <p><a href="#" class="btn btn-primary" role="button">Ürüne Git</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-2">
+            <div class="thumbnail">
+              <img src="img/Tabure1.jpg" alt="...">
+              <div class="caption">
+                <h4><strong>CREMONIA PİYANO TABURESİ BEYAZ SANDIKLI MASİF AYAKLI</strong></h4>
+                <h3>174,93TL</h3>
+                <p><a href="#" class="btn btn-primary" role="button">Ürüne Git</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-2">
+            <div class="thumbnail">
+              <img src="img/Tabure2.jpg" alt="...">
+              <div class="caption">
+                <h4><strong>CREMONIA PTCBK PİYANO TABURESİ SİYAH SANDIKLI MASİF AYAKLI</strong></h4>
+                <h3>174,93TL</h3>
+                <p><a href="#" class="btn btn-primary" role="button">Ürüne Git</a></p>
+              </div>
+            </div>
+          </div>
+
+          
+
+    </div>
+
+
+</div>
+</div>
+
+<hr>
+<div id="alt" class="row">
+    <div class=col-md-12>
+        <br>
+        <br>
+        <img alt="Marka" src="img/footer_logo.png" href="#" height="80px" >
+
+    </div>
+</div>
+
+
+
+
+    </div>
+</body>
+</html>

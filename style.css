@@ -1,0 +1,79 @@
+#navbar {
+    height: auto;
+
+}
+
+#sol {
+
+    height: auto;
+    
+}
+
+#sağ {
+
+    height: auto;
+    
+}
+
+#alt {
+    
+    height: 200px;
+    
+
+}
+
+
+#sol2 {
+
+    height: auto;
+}
+
+#sağ2 {
+
+    height: auto;
+}
+
+#sol3 {
+    height: 400px;
+}
+
+#sağ3 {
+    height: 400px;
+}
+
+ #flip {
+    padding: 6px;
+    text-align: center;
+    background-color: powderblue;
+    border: solid 1px black;
+}
+
+#panel {
+    padding: 40px;
+    text-align: center;
+    background-color: powderblue;
+  border: solid 1px black;
+}
+
+  
+
+.blue {
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: bold;
+    background-color: rgb(45, 167, 29);
+}
+.red {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    background-color: red;
+}
+
+#jquery {
+    
+    font-style: italic;
+    
+}

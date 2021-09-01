@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>EnstruMarket</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script> 
+      $(document).ready(function(){
+        $("#flip4").click(function(){
+          $("#panel4").slideToggle("slow");
+      });
+      });
+      </script>
+
+<script> 
+  $(document).ready(function(){
+    $("#bttn").click(function(){
+      var div = $("#divv");
+      div.animate({height: '300px', opacity: '0.4'}, "slow");
+      div.animate({width: '300px', opacity: '0.8'}, "slow");
+      div.animate({height: '100px', opacity: '0.4'}, "slow");
+      div.animate({width: '100px', opacity: '0.8'}, "slow");
+      div.animate({fontSize: '3em'}, "slow");
+      div.animate({height: '50px', opacity: '0.8'}, "slow");
+      div.animate({width: '300px', opacity: '0.8'}, "slow");
+      
+    });
+  });
+  </script> 
+
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <div id="navbar" class="row">
+            <div class="col-md-12">
+                
+                <nav class="navbar navbar-default">
+                    <div class="container">
+                      <!-- Daha iyi mobil görüntü için marka ve aç/kapa gruplanıyor -->
+                      <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                          <span class="sr-only">Navigasyonu aç/kapa</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                        </button>
+                        <a href="Anasayfa.html">
+                        <img alt="Marka" src="img/enstrumarket.jpeg" href="#" height="80px" >
+                    </a>
+                      </div>
+                      <!-- Aç/kapa için nav kısayollarını, formu ve diğer içeriği bir araya topla -->
+                      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <a class="navbar-brand" href="Anasayfa.html">EnstruMarket</a>
+                            <li><a href="jquery.html">Jquery</a></li>
+                            <li><a href="iletişim.html">İletişim</a></li>
+                            <li><a href="Hakkımızda.html">Hakkımızda</a></li>
+                            
+                        </ul>
+                        <div class="container">
+                        <form class="navbar-form navbar-left" role="search">
+                          <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Hızlı arama...">
+                          </div>
+                          <button type="button" class="btn btn-primary">Ara</button>
+                        </form>
+                        
+                        <form class="navbar-form navbar-right" role="button">
+                         <div class="form-group">
+                           <a href="Girişyap.html">
+                        <button type="button" class="btn btn-success navbar-right">Giriş Yap</button>
+                      </a>
+                      </div>
+
+                        </form>
+                        <form class="navbar-form navbar-right" role="button">
+                          <div class="form-group">
+                            <a href="Üyeol.html">
+                         <button type="button" class="btn btn-success navbar-right">Üye Ol</button>
+                        </a>
+                       </div>
+                         </form>
+
+                    </div>
+                      </div><!-- /.navbar-aç/kapa -->
+                    </div><!-- /.container-fluid -->
+                  </nav>
+
+            </div>
+        </div>
+
+
+<div  class="row">
+    <div id="sol" class="col-md-3">
+<strong>
+        <div id="flip4" class="list-group">
+            <a href="#" class="list-group-item active">
+              KATEGORİLER
+            </a>
+
+            <div id="panel4">
+            <a href="Gitar.html" class="list-group-item">Gitar</a>
+            <a href="Bateri.html" class="list-group-item">Bateri-Davul Çeşitleri</a>
+            <a href="Piyano.html" class="list-group-item">Piyano</a>
+            <a href="Nefesliler.html" class="list-group-item">Nefesliler-Üflemeliler</a>
+          </div>
+        </div>
+
+        </strong>
+
+<br>
+<br>
+
+
+  <div class="row">
+    <div class="col-md-6">
+<a href="Gitar.html">
+<img style="border-radius: 50%;" src="img/Anasayfa1.jpg" alt="" height="120px" width="150" >
+</a>
+</div>
+<a href="Piyano.html">
+<img style="border-radius: 50%;" src="img/Anasayfa2.jpg" alt="" height="120px" width="150">
+</a>
+</div>
+<br>
+<br>
+
+
+<div class="row">
+  <div class="col-md-6">
+<a href="Bateri.html">
+<img style="border-radius: 50%;" src="img/Anasayfa3.jpg" alt="" height="120px" width="150" >
+</a>
+</div>
+<a href="Nefesliler.html">
+<img style="border-radius: 50%;" src="img/Anasayfa4.jpg" alt="" height="120px" width="150" >
+</a>
+</div>
+<br>
+<br>
+
+<div class="container">
+  <div class="col-md-3>">
+<button id="bttn" class="btn btn-info" ><b>Animasyonu Başlat</b></button>
+<br><br>
+<div id="divv" style="background:#51b0db;height:100px;width:120px;position:absolute;"><p style="color: white;" style="font-size:200px;"><b>HOŞ GELDİNİZ</b></p></div>
+
+</div>
+</div>
+      
+
+
+
+    </div>
+
+
+<div id="sağ" class="col-md-9">
+<div class="container">
+  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    </ol>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="img/1.jpeg" alt="...">
+        <div class="carousel-caption">
+  
+        </div>
+      </div>
+      <div class="item">
+        <img src="img/2.jpeg" alt="...">
+        <div class="carousel-caption">
+        
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="img/3.jpeg" alt="...">
+        <div class="carousel-caption">
+        
+        </div>
+      </div>
+    
+    </div>
+  
+  </div>
+
+</div>
+<br>
+<h3><strong>Çok Satılanlar</strong></h3>
+<hr>
+
+<div class="row">
+  <div class="col-sm-6 col-md-2">
+    <div class="thumbnail">
+      <img src="img/Çok1.jpeg" alt="...">
+      <div class="caption">
+        <h4><strong>Washburn Sonamaster S2HMB Cort CM15R ELEKTRO GİTAR ve AMFİ SET Jack kablosu Hediyeli</strong></h4>
+        <h3>1.807,58TL</h3>
+        <p><a href="#" class="btn btn-primary" role="button">Ürüne Git</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-2">
+    <div class="thumbnail">
+      <img src="img/Çok2.jpeg" alt="...">
+      <div class="caption">
+        <h4><strong>Yamaha F370 DW Akustik Gitar ( Kılıf, Pena Şarjörü ve pena Hediyeli )</strong></h4>
+        <h3>1.650,00TL</h3>
+        <p><a href="#" class="btn btn-primary" role="button">Ürünüe Git</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-2">
+    <div class="thumbnail">
+      <img src="img/cok3.jpeg" alt="...">
+      <div class="caption">
+        <h4><strong>Yamaha YDP163B Dijital Piyano (Mat Siyah)</strong></h4>
+        <h3>6.209,91TL</h3>
+        <p><a href="#" class="btn btn-primary" role="button">Ürüne Git</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-2">
+    <div class="thumbnail">
+      <img src="img/Çok4.jpeg" alt="...">
+      <div class="caption">
+        <h4><strong>YERLI MALI ELEKTRO GİTAR KILIFI (EK)</strong></h4>
+        <h3>32,54TL</h3>
+        <p><a href="#" class="btn btn-primary" role="button">Ürüne Git</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-2">
+    <div class="thumbnail">
+      <img src="img/Çok5.jpeg" alt="...">
+      <div class="caption">
+        <h4><strong>Yamaha Clavinova CLP625 Beyaz Dijital Piyano</strong></h4>
+        <h3>10.824,49TL</h3>
+        <p><a href="#" class="btn btn-primary" role="button">Ürüne Git</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-2">
+    <div class="thumbnail">
+      <img src="img/Çok6.jpg" alt="...">
+      <div class="caption">
+        <h4><strong>Washburn Sonamaster S2HMRD Elektro Gitar Kırmızı Kılıf Pena ve Dean MARKLEY Takım Tel Hediye</strong></h4>
+        <h3>1.227,41TL</h3>
+        <p><a href="#" class="btn btn-primary" role="button">Ürüne Git</a></p>
+      </div>
+    </div>
+  </div>
+
+  
+
+</div>
+
+
+</div>
+</div>
+
+<hr>
+<div id="alt" class="row">
+    <div class=col-md-12>
+        <br>
+        <br>
+        <img alt="Marka" src="img/footer_logo.png" href="#" height="80px" >
+
+    </div>
+</div>
+
+
+
+
+    </div>
+</body>
+</html>

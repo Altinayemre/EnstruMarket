@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>EnstruMarket</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <div id="navbar" class="row">
+            <div class="col-md-12">
+                
+                <nav class="navbar navbar-default">
+                    <div class="container">
+                      <!-- Daha iyi mobil görüntü için marka ve aç/kapa gruplanıyor -->
+                      <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                          <span class="sr-only">Navigasyonu aç/kapa</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                        </button>
+                        <a href="Anasayfa.html">
+                        <img alt="Marka" src="img/enstrumarket.jpeg" href="#" height="80px" >
+                    </a>
+                      </div>
+                      <!-- Aç/kapa için nav kısayollarını, formu ve diğer içeriği bir araya topla -->
+                      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <a class="navbar-brand" href="Anasayfa.html">EnstruMarket</a>
+                            <li><a href="jquery.html">Jquery</a></li>
+                            <li><a href="iletişim.html">İletişim</a></li>
+                            <li><a href="Hakkımızda.html">Hakkımızda</a></li>
+                            
+                        </ul>
+                        <div class="container">
+                        <form class="navbar-form navbar-left" role="search">
+                          <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Hızlı arama...">
+                          </div>
+                          <button type="button" class="btn btn-primary">Ara</button>
+                        </form>
+                        <form class="navbar-form navbar-right" role="button">
+                          <div class="form-group">
+                            <a href="Girişyap.html">
+                         <button type="button" class="btn btn-success navbar-right">Giriş Yap</button>
+                       </a>
+                       </div>
+ 
+                         </form>
+                         <form class="navbar-form navbar-right" role="button">
+                           <div class="form-group">
+                             <a href="Üyeol.html">
+                          <button type="button" class="btn btn-success navbar-right">Üye Ol</button>
+                         </a>
+                        </div>
+                          </form>
+                    </div>
+                      </div><!-- /.navbar-aç/kapa -->
+                    </div><!-- /.container-fluid -->
+                  </nav>
+
+            </div>
+        </div>
+
+
+<div  class="row">
+    <div id="sol" class="col-md-3">
+        <form>
+
+        <h3><strong>Özel Süzgeç</strong></h3>
+        <hr>
+        
+        <h4>Ürün Adı</h4>
+        <div class="form-group">
+            <input type="text" class="form-control" id="exampleInputText1" placeholder="Ürün Adı Giriniz..">
+            </div> 
+            <br>  
+
+        <h4>Alt Kategori</h4>
+        <select class="form-control">
+            <option>Davul Setleri</option>
+            <option>Trampetler</option>
+            <option>Tom Tomlar</option>
+            <option>Floortomlar</option>
+            <option>Kickler</option>
+            
+           
+</select>
+<br>
+
+<h4>Marka</h4>
+
+<div class="checkbox">
+    <label>
+    <input type="checkbox" id="blankCheckbox" value="option1" aria-label="...">Gretsch
+    </label>
+</div>
+
+<div class="checkbox">
+    <label>
+    <input type="checkbox" id="blankCheckbox" value="option1" aria-label="...">Sonor
+    </label>
+</div>
+
+<div class="checkbox">
+    <label>
+    <input type="checkbox" id="blankCheckbox" value="option1" aria-label="...">Yamaha
+    </label>
+</div>
+
+<div class="checkbox">
+    <label>
+    <input type="checkbox" id="blankCheckbox" value="option1" aria-label="...">DW Drums
+    </label>
+</div>
+
+<div class="checkbox">
+  <label>
+  <input type="checkbox" id="blankCheckbox" value="option1" aria-label="...">Ashton
+  </label>
+</div>
+
+<div class="checkbox">
+  <label>
+  <input type="checkbox" id="blankCheckbox" value="option1" aria-label="...">PDP Drums
+  </label>
+</div>
+
+<div class="checkbox">
+  <label>
+  <input type="checkbox" id="blankCheckbox" value="option1" aria-label="...">Jinbao
+  </label>
+</div>
+
+
+<br>
+
+<h4>Renk Seçiniz</h4>
+
+  <input type="color" id="favcolor" name="favcolor">
+  <br>
+  <br>
+
+<h4>Fiyat Aralığı</h4>
+
+<div class="input-group">
+    <input type="text" class="form-control" placeholder="Fiyat Giriniz" aria-describedby="basic-addon2">
+    <span class="input-group-addon" id="basic-addon1">TL</span>
+  </div>
+  <br>
+  
+  <button type="button" class="btn btn-primary">Ara</button>
+
+
+
+</form>
+
+    </div>
+
+
+<div id="sağ" class="col-md-9">
+
+    <div class="row">
+        <div class="col-sm-6 col-md-2">
+          <div class="thumbnail">
+            <img src="img/Batrei1.jpg" alt="...">
+            <div class="caption">
+              <h4><strong>PDP Drums centerstage 20 Inch 5-Parça Akustik Davul Seti (Royal Blue Sparkle)</strong></h4>
+              <h3>4.378,14TL</h3>
+              <p><a href="#" class="btn btn-primary" role="button">Ürüne Git</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-2">
+            <div class="thumbnail">
+              <img src="img/bateri2.jpg" alt="...">
+              <div class="caption">
+                <h4><strong>Sonor AQ2 Stage Akustik Davul Set (Trans Black)</strong></h4>
+                <h3>9.647,13TL</h3>
+                <p><a href="#" class="btn btn-primary" role="button">Ürüne Git</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-2">
+            <div class="thumbnail">
+              <img src="img/bateri3.jpg" alt="...">
+              <div class="caption">
+                <h4><strong>Gretsch Catalina Club Series 18 Inch 4 Parça Akustik Davul Seti (Satin Walnut Gaze)</strong></h4>
+                <h3>5.854,35TL</h3>
+                <p><a href="#" class="btn btn-primary" role="button">Ürüne Git</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-2">
+            <div class="thumbnail">
+              <img src="img/bateri4.jpg" alt="...">
+              <div class="caption">
+                <h4><strong>Yamaha GM0F5SLG Gig Maker Davul Seti (Blue Ice Glitter)</strong></h4>
+                <h3>6.013,98TL</h3>
+                <p><a href="#" class="btn btn-primary" role="button">Ürüne Git</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-2">
+            <div class="thumbnail">
+              <img src="img/bateri5.jpg" alt="...">
+              <div class="caption">
+                <h4><strong>Yamaha GM0F5SLG Gig Maker Davul Seti (Silver Glitter)</strong></h4>
+                <h3>6.314,68TL</h3>
+                <p><a href="#" class="btn btn-primary" role="button">Ürüne Git</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-2">
+            <div class="thumbnail">
+              <img src="img/bateri6.jpg" alt="...">
+              <div class="caption">
+                <h4><strong>DW Pacific Drums Natural Charcoal Fade Davul Seti</strong></h4>
+                <h3>4.982,03TL</h3>
+                <p><a href="#" class="btn btn-primary" role="button">Ürüne Git</a></p>
+              </div>
+            </div>
+          </div>
+      
+    </div>
+    <br>
+    <div  class="row">
+
+        <div class="col-sm-6 col-md-2">
+            <div class="thumbnail">
+              <img src="img/bateri7.jpg" alt="...">
+              <div class="caption">
+                <h4><strong>Yamaha Gigmaker Davul Seti White Grape Glitter</strong></h4>
+                <h3>5.798,47TL</h3>
+                <p><a href="#" class="btn btn-primary" role="button">Ürüne Git</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-2">
+            <div class="thumbnail">
+              <img src="img/bateri8.jpg" alt="...">
+              <div class="caption">
+                <h4><strong>Ashton JOEYDRUMS Junior Akustik Davul Seti (Beyaz)</strong></h4>
+                <h3>2.826,17TL</h3>
+                <p><a href="#" class="btn btn-primary" role="button">Ürüne Git</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-2">
+            <div class="thumbnail">
+              <img src="img/bateri9.jpg" alt="...">
+              <div class="caption">
+                <h4><strong>Yamaha Rydeen 20 Inch Aksamlar Dahil Davul Seti (Hot Red)</strong></h4>
+                <h3>5.774,99TL</h3>
+                <p><a href="#" class="btn btn-primary" role="button">Ürüne Git</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-2">
+            <div class="thumbnail">
+              <img src="img/Trampet1.jpg" alt="...">
+              <div class="caption">
+                <h4><strong>Sonor Vt 16 Sdw 17330 14 x 6.5 Inch Trampet (Vintage Red Oyster)</strong></h4>
+                <h3>5.735,41TL</h3>
+                <p><a href="#" class="btn btn-primary" role="button">Ürüne Git</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-2">
+            <div class="thumbnail">
+              <img src="img/trampet2.jpg" alt="...">
+              <div class="caption">
+                <h4><strong>Sonor 14x5,75 Vintage Serisi Trampet</strong></h4>
+                <h3>4.594,67TL</h3>
+                <p><a href="#" class="btn btn-primary" role="button">Ürüne Git</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-2">
+            <div class="thumbnail">
+              <img src="img/bateri10.jpg" alt="...">
+              <div class="caption">
+                <h4><strong>Sonor Smart Force SFX11 Xtend Studio Brushed Blue Akustik Davul Seti</strong></h4>
+                <h3>7.067,11TL</h3>
+                <p><a href="#" class="btn btn-primary" role="button">Ürüne Git</a></p>
+              </div>
+            </div>
+          </div>
+
+          
+
+    </div>
+
+
+</div>
+</div>
+
+<hr>
+<div id="alt" class="row">
+    <div class=col-md-12>
+        <br>
+        <br>
+        <img alt="Marka" src="img/footer_logo.png" href="#" height="80px" >
+
+    </div>
+</div>
+
+
+
+
+    </div>
+</body>
+</html>

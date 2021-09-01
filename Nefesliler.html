@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>EnstruMarket</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <div id="navbar" class="row">
+            <div class="col-md-12">
+                
+                <nav class="navbar navbar-default">
+                    <div class="container">
+                      <!-- Daha iyi mobil görüntü için marka ve aç/kapa gruplanıyor -->
+                      <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                          <span class="sr-only">Navigasyonu aç/kapa</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                        </button>
+                        <a href="Anasayfa.html">
+                        <img alt="Marka" src="img/enstrumarket.jpeg" href="#" height="80px" >
+                    </a>
+                      </div>
+                      <!-- Aç/kapa için nav kısayollarını, formu ve diğer içeriği bir araya topla -->
+                      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <a class="navbar-brand" href="Anasayfa.html">EnstruMarket</a>
+                            <li><a href="jquery.html">Jquery</a></li>
+                            <li><a href="iletişim.html">İletişim</a></li>
+                            <li><a href="Hakkımızda.html">Hakkımızda</a></li>
+                            
+                        </ul>
+                        <div class="container">
+                        <form class="navbar-form navbar-left" role="search">
+                          <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Hızlı arama...">
+                          </div>
+                          <button type="button" class="btn btn-primary">Ara</button>
+                        </form>
+                        <form class="navbar-form navbar-right" role="button">
+                          <div class="form-group">
+                            <a href="Üyeol.html">
+                         <button type="button" class="btn btn-success navbar-right">Giriş Yap</button>
+                       </a>
+                       </div>
+ 
+                         </form>
+                         <form class="navbar-form navbar-right" role="button">
+                           <div class="form-group">
+                             <a href="Girişyap.html">
+                          <button type="button" class="btn btn-success navbar-right">Üye Ol</button>
+                         </a>
+                        </div>
+                          </form>
+                    </div>
+                      </div><!-- /.navbar-aç/kapa -->
+                    </div><!-- /.container-fluid -->
+                  </nav>
+
+            </div>
+        </div>
+
+
+<div  class="row">
+    <div id="sol" class="col-md-3">
+        <form>
+
+        <h3><strong>Özel Süzgeç</strong></h3>
+        <hr>
+        
+        <h4>Ürün Adı</h4>
+        <div class="form-group">
+            <input type="text" class="form-control" id="exampleInputText1" placeholder="Ürün Adı Giriniz..">
+            </div> 
+            <br>  
+
+        <h4>Alt Kategori</h4>
+        <select class="form-control">
+            <option>Klarnetler</option>
+            <option>Yan Flütler</option>
+            <option>Saksafonlar</option>
+            <option>Trompetler</option>
+            <option>Mızıkalar</option>
+            
+           
+</select>
+<br>
+
+<h4>Marka</h4>
+
+<div class="checkbox">
+    <label>
+    <input type="checkbox" id="blankCheckbox" value="option1" aria-label="...">Bohemia
+    </label>
+</div>
+
+<div class="checkbox">
+    <label>
+    <input type="checkbox" id="blankCheckbox" value="option1" aria-label="...">Buffet Crampon
+    </label>
+</div>
+
+<div class="checkbox">
+    <label>
+    <input type="checkbox" id="blankCheckbox" value="option1" aria-label="...">Yamaha
+    </label>
+</div>
+
+<div class="checkbox">
+    <label>
+    <input type="checkbox" id="blankCheckbox" value="option1" aria-label="...">Antigua
+    </label>
+</div>
+
+<div class="checkbox">
+  <label>
+  <input type="checkbox" id="blankCheckbox" value="option1" aria-label="...">Amati
+  </label>
+</div>
+
+<div class="checkbox">
+  <label>
+  <input type="checkbox" id="blankCheckbox" value="option1" aria-label="...">Hohner
+  </label>
+</div>
+
+<div class="checkbox">
+  <label>
+  <input type="checkbox" id="blankCheckbox" value="option1" aria-label="...">Suzuki
+  </label>
+</div>
+
+
+<br>
+
+<h4>Renk Seçiniz</h4>
+
+  <input type="color" id="favcolor" name="favcolor">
+  <br>
+  <br>
+
+<h4>Fiyat Aralığı</h4>
+
+<div class="input-group">
+    <input type="text" class="form-control" placeholder="Fiyat Giriniz" aria-describedby="basic-addon2">
+    <span class="input-group-addon" id="basic-addon1">TL</span>
+  </div>
+  <br>
+  
+  <button type="button" class="btn btn-primary">Ara</button>
+
+
+
+</form>
+
+    </div>
+
+
+<div id="sağ" class="col-md-9">
+
+    <div class="row">
+        <div class="col-sm-6 col-md-2">
+          <div class="thumbnail">
+            <img src="img/Klarnet1.jpg" alt="...">
+            <div class="caption">
+              <h4><strong>Buffet BC2512F-2-0GB Student Si Bemol Klarnet</strong></h4>
+              <h3>7.668,00TL</h3>
+              <p><a href="#" class="btn btn-primary" role="button">Ürüne Git</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-2">
+            <div class="thumbnail">
+              <img src="img/klarnet2.jpg" alt="...">
+              <div class="caption">
+                <h4><strong>Bohemia XCLPLUS ARTIST Sol Klarnet</strong></h4>
+                <h3>4.529,12TL</h3>
+                <p><a href="#" class="btn btn-primary" role="button">Ürüne Git</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-2">
+            <div class="thumbnail">
+              <img src="img/klarnet3.jpg" alt="...">
+              <div class="caption">
+                <h4><strong>Yamaha YCL255S Si Bemol Klarnet</strong></h4>
+                <h3>5.019,32TL</h3>
+                <p><a href="#" class="btn btn-primary" role="button">Ürüne Git</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-2">
+            <div class="thumbnail">
+              <img src="img/yanflüt1.jpg" alt="...">
+              <div class="caption">
+                <h4><strong>Yamaha YFL372 Yan Flüt</strong></h4>
+                <h3>11.623,50TL</h3>
+                <p><a href="#" class="btn btn-primary" role="button">Ürüne Git</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-2">
+            <div class="thumbnail">
+              <img src="img/yanflüt2.jpg" alt="...">
+              <div class="caption">
+                <h4><strong>Antigua C Flute Plateau Model Yan Flüt</strong></h4>
+                <h3>2.651,04TL</h3>
+                <p><a href="#" class="btn btn-primary" role="button">Ürüne Git</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-2">
+            <div class="thumbnail">
+              <img src="img/yanflüt3.jpg" alt="...">
+              <div class="caption">
+                <h4><strong>Suzuki MCF1 Yan Flüt</strong></h4>
+                <h3>2.047,16TL</h3>
+                <p><a href="#" class="btn btn-primary" role="button">Ürüne Git</a></p>
+              </div>
+            </div>
+          </div>
+      
+    </div>
+    <br>
+    <div  class="row">
+
+        <div class="col-sm-6 col-md-2">
+            <div class="thumbnail">
+              <img src="img/saksafon1.jpg" alt="...">
+              <div class="caption">
+                <h4><strong>Buffet BC8101-1-0 Student Alto Saksafon (Lacquer)</strong></h4>
+                <h3>5.869,80TL</h3>
+                <p><a href="#" class="btn btn-primary" role="button">Ürüne Git</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-2">
+            <div class="thumbnail">
+              <img src="img/saksafon2.jpg" alt="...">
+              <div class="caption">
+                <h4><strong>Antigua 4248BG Mi Bemol Alto Sakasafon</strong></h4>
+                <h3>10.259,96TL</h3>
+                <p><a href="#" class="btn btn-primary" role="button">Ürüne Git</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-2">
+            <div class="thumbnail">
+              <img src="img/trompet1.jpg" alt="...">
+              <div class="caption">
+                <h4><strong>Amati ATR831 Sib Trompet</strong></h4>
+                <h3>11.550,12TL</h3>
+                <p><a href="#" class="btn btn-primary" role="button">Ürüne Git</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-2">
+            <div class="thumbnail">
+              <img src="img/trompet2.jpg" alt="...">
+              <div class="caption">
+                <h4><strong>Yamaha YTR 2330S Sib Trompet Silver</strong></h4>
+                <h3>4.630,04TL</h3>
+                <p><a href="#" class="btn btn-primary" role="button">Ürüne Git</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-2">
+            <div class="thumbnail">
+              <img src="img/mızıka1.jpg" alt="...">
+              <div class="caption">
+                <h4><strong>Hohner Larry Adler Signature 7534/48 Kromatik Mızıka (Do Majör)</strong></h4>
+                <h3>957,44TL</h3>
+                <p><a href="#" class="btn btn-primary" role="button">Ürüne Git</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-2">
+            <div class="thumbnail">
+              <img src="img/mızıka2.jpg" alt="...">
+              <div class="caption">
+                <h4><strong>Hohner Chromonica 48 Gold Mızıka (Do Majör)</strong></h4>
+                <h3>2.147,48TL</h3>
+                <p><a href="#" class="btn btn-primary" role="button">Ürüne Git</a></p>
+              </div>
+            </div>
+          </div>
+
+          
+
+    </div>
+
+
+</div>
+</div>
+
+<hr>
+<div id="alt" class="row">
+    <div class=col-md-12>
+        <br>
+        <br>
+        <img alt="Marka" src="img/footer_logo.png" href="#" height="80px" >
+
+    </div>
+</div>
+
+
+
+
+    </div>
+</body>
+</html>
